@@ -1,0 +1,52 @@
+.cinzel {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.cinzel-600 {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.btn:hover {
+  color: brown;
+}
+.showreel-section {
+  background: linear-gradient(135deg, #3a0d0d, #5c1e1e);
+  color: #fff;
+  padding: 60px 20px;
+}
+.video-wrapper {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.6);
+  border: 3px solid #f7dac0;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+.stats-section {
+  background: linear-gradient(135deg, #fffaf0, #fff5e1);
+}
+.borderColor {
+  border-color: #FCF8DC;
+}
+.asambhav {
+  color: #FFF8DB;
+}
+.film-poster {
+  width: 200px;   
+  height: 300px;  
+  object-fit: contain;     
+}
