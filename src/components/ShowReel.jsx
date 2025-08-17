@@ -1,5 +1,4 @@
 import React from 'react'
-import showreel from '../assets/mukta show reel.mp4';
 import '../index.css'
 const ShowReel = () => {
   return (
@@ -7,7 +6,7 @@ const ShowReel = () => {
         <div>
             <h1 className='cinzel text-light'>Mukta Barve Show Reel</h1>
             <video className='img-fluid w-100 video-wrapper' autoPlay loop>
-                <source src={showreel} type='video/mp4'/>
+                <source src="https://drive.google.com/uc?export=download&id=12BYdqoloOZZjDZ4QBOknJOD6YyHd9Gxw" type='video/mp4'/>
             </video>
         </div>
     </div>
