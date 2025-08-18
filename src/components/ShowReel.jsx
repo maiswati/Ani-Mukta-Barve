@@ -1,5 +1,5 @@
 import React from 'react'
-import showReel from '../assets/mukta show reel.mp4'
+import showReel from '../assets/public/video/mukta show reel.mp4'
 import '../index.css'
 const ShowReel = () => {
   return (
