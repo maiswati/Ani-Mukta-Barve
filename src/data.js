@@ -37,7 +37,14 @@ import y from './assets/y.jpg'
 import apth from './assets/apth.jpg'
 import abacc from './assets/abacc.webp'
 import ngg from './assets/ngg.jpg';
+import ksns from './assets/ksns.jpg'
 export const films = [
+  {
+    "year" : 1987,
+    "film" : "Khatyal Sasu Nathal Sun",
+    "src" : ksns,
+    "role" : "Dancer : Mukta Barve",
+  },
   {
     "year": 2004,
     "film": "Chakwa",
