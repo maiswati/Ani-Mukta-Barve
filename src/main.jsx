@@ -29,7 +29,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/stats' element={<Stats/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/family' element={<Family/>}/>
-      <Route path='/shortFlims' element={<ShortFilms/>}/>
+      <Route path='/shortFilms' element={<ShortFilms/>}/>
     </Routes>
   </BrowserRouter>,
 )
