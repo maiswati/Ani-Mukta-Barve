@@ -592,22 +592,10 @@ import chandSanse from './assets/chaandSanse.jpg'
 import varsh17 from './assets/17vevarsh.png'
 export const shortFilms = [
   {
-    "year": 2020,
-    "film": "Devi",
-    "src" : devi,
-    "role": "Arzu",
-  },
-  {
-    "year": 2023,
-    "film": "Daptar - Ravetkar Group",
-    "src" : dapter,
-    "role": "Rama",
-  },
-  {
-    "year": 2024,
-    "film": "Vote kar ga Ghuma",
-    "src" : votekarghuma,
-    "role": "Rani",
+    "year": 2025,
+    "film": "17 ve varsh",
+    "src" : varsh17,
+    "role": "As a Vahini",
   },
   {
     "year": 2024,
@@ -616,9 +604,21 @@ export const shortFilms = [
     "role": "Nayan",
   },
   {
-    "year": 2025,
-    "film": "17 ve varsh",
-    "src" : varsh17,
-    "role": "As a Vahini",
+    "year": 2024,
+    "film": "Vote kar ga Ghuma",
+    "src" : votekarghuma,
+    "role": "Rani",
+  },
+  {
+    "year": 2023,
+    "film": "Daptar - Ravetkar Group",
+    "src" : dapter,
+    "role": "Rama",
+  },
+  {
+    "year": 2020,
+    "film": "Devi",
+    "src" : devi,
+    "role": "Arzu",
   },
 ]
