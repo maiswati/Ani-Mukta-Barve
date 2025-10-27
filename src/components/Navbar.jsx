@@ -83,7 +83,7 @@ const Navbar = () => {
                     </a>
                   </li>
                 </NavLink>
-                <NavLink to="/theatre" style={{ textDecoration: "none" }}>
+                <NavLink to="/shortFilms" style={{ textDecoration: "none" }}>
                   <li>
                     <a class="dropdown-item cinzel-600" href="#">
                       Short Films
