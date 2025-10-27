@@ -245,12 +245,6 @@ export const films = [
   },
   {
     "year": 2020,
-    "film": "Devi",
-    "src" : devi,
-    "role": "Arzu",
-  },
-  {
-    "year": 2020,
     "film": "Ekda Kaay Zala",
     "src" : ekz,
     "role": "Dr. Saniya",
@@ -295,6 +289,7 @@ import eldg from './assets/eldg.jpg'
 import jh from './assets/jh.png'
 import rudrum from './assets/rudrum.jpg'
 import aba from './assets/aba.png'
+import indrayani from './assets/indrayani.jpg'
 export const tvShows = [
   {
     "year": 1999,
@@ -379,6 +374,12 @@ export const tvShows = [
     "show": "Ajunahi Barsaat Aahe",
     "src" : aba,
     "role": "Meera Desai-Pathak",
+  },
+  {
+    "year" : 2024,
+    "show" : "Indrayani",
+    "src" : indrayani,
+    "role" : "Mukta Inamdar"
   }
 ]
 import gth from './assets/gth.jpg'
@@ -579,3 +580,39 @@ export const family = [
     "src" : prekshak,
   }
 ];
+import dapter from './assets/daptar.png'
+import votekarghuma from './assets/votekargaghuma.png'
+import chandSanse from './assets/chaandSanse.jpg'
+import varsh17 from './assets/17vevarsh.png'
+export const shortFilms = [
+  {
+    "year": 2020,
+    "film": "Devi",
+    "src" : devi,
+    "role": "Arzu",
+  },
+  {
+    "year": 2023,
+    "film": "Daptar - Ravetkar Group",
+    "src" : dapter,
+    "role": "Rama",
+  },
+  {
+    "year": 2024,
+    "film": "Vote kar ga Ghuma",
+    "src" : votekarghuma,
+    "role": "Rani",
+  },
+  {
+    "year": 2024,
+    "film": "Chand Saanse",
+    "src" : chandSanse,
+    "role": "Nayan",
+  },
+  {
+    "year": 2025,
+    "film": "17 ve varsh",
+    "src" : varsh17,
+    "role": "As a Vahini",
+  },
+]

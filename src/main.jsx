@@ -13,6 +13,7 @@ import Theatre from './components/Theatre.jsx';
 import Awards from './components/Awards.jsx';
 import Stats from './components/Stats.jsx';
 import About from './components/About.jsx';
+import ShortFilms from './components/ShortFilms.jsx';
 import Family from './components/Family.jsx';
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -28,6 +29,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/stats' element={<Stats/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/family' element={<Family/>}/>
+      <Route path='/shortFlims' element={<ShortFilms/>}/>
     </Routes>
   </BrowserRouter>,
 )
