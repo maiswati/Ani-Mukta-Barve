@@ -510,7 +510,13 @@ import spa from './assets/smitaPatil.jpg';
 import ltt from './assets/TarunTejankitAwards.jpg'
 import pul from './assets/PulotsavAward.jpg'
 import filmfare from './assets/filmfare.jpg'
+import yuva from './assets/yuvaPuraskar.png'
 export const awards = [
+  {
+    "year" : 2025,
+    "award" : "YUVA Srujan Kalakar Puraskar",
+    "src" : yuva
+  },
   {
     "year" : 2025,
     "award" : "V. Shantaram Special Contribution Award",
