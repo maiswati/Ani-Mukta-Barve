@@ -505,13 +505,12 @@ export const plays = [
 ]
 
 import vsvyp from './assets/vsvyp.jpg'
-import ygp from './assets/yuvaGauravPuraskar.jpg'
 import spa from './assets/smitaPatil.jpg';
 import ltt from './assets/TarunTejankitAwards.jpg'
 import pul from './assets/PulotsavAward.jpg'
 import filmfare from './assets/filmfare.jpg'
 import yuva from './assets/yuvaPuraskar.png'
-import sp from './assets/awardbysp.png'
+import spmukta from './assets/awardbysp.png'
 export const awards = [
   {
     "year" : 2025,
@@ -526,7 +525,7 @@ export const awards = [
   {
     "year" : 2020,
     "award" : "Yuva Gaurav Puraskar",
-    "src" : sp,
+    "src" : spmukta,
   },
   {
     "year" : 2018,
