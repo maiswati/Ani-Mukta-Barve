@@ -511,6 +511,7 @@ import ltt from './assets/TarunTejankitAwards.jpg'
 import pul from './assets/PulotsavAward.jpg'
 import filmfare from './assets/filmfare.jpg'
 import yuva from './assets/yuvaPuraskar.png'
+import sp from './assets/awardbysp.png'
 export const awards = [
   {
     "year" : 2025,
@@ -525,7 +526,7 @@ export const awards = [
   {
     "year" : 2020,
     "award" : "Yuva Gaurav Puraskar",
-    "src" : ygp,
+    "src" : sp,
   },
   {
     "year" : 2018,
@@ -590,12 +591,19 @@ import dapter from './assets/daptar.png'
 import votekarghuma from './assets/votekargaghuma.png'
 import chandSanse from './assets/chaandSanse.jpg'
 import varsh17 from './assets/17vevarsh.png'
+import mansudhatuza from './assets/mansuddhatuz.png'
 export const shortFilms = [
   {
     "year": 2025,
     "film": "17 ve varsh",
     "src" : varsh17,
     "role": "As a Vahini",
+  },
+  {
+    "year": 2024,
+    "film": "Mann Suddha Tujha",
+    "src" : mansudhatuza,
+    "role": "HR Motivator",
   },
   {
     "year": 2024,
