@@ -44,7 +44,7 @@ const Home = () => {
           }}
         >
           कन्या ऐसी देई , जैसी मीरा आणि{" "}
-            <h2>मुक्ताबाई</h2>
+            <h2><b>मुक्ताबाई</b></h2>
         </h4>
         <NavLink to="/showreel" style={{ textDecoration: "none" }}>
           <button
