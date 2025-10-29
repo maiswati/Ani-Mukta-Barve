@@ -31,9 +31,20 @@ const Home = () => {
       ></div>
 
       <div style={{ zIndex: 2 }}>
-        <h1 className="cinzel"><b>Mukta Barve</b></h1>
+        <h1 className="cinzel">
+          <b>Mukta Barve</b>
+        </h1>
         <p className="cinzel">Actress | Dreamer | Storyteller</p>
-        <h4><b>कन्या ऐसी देई , जैसी मीरा आणि मुक्ताबाई</b></h4>
+        <h4
+          style={{
+            color: "#00BFFF",
+            textShadow: "0 0 3px #87CEFA, 0 0 16px #1E90FF",
+            fontWeight: "bold",
+          }}
+        >
+          कन्या ऐसी देई , जैसी मीरा आणि{" "}
+            <h2>मुक्ताबाई</h2>
+        </h4>
         <NavLink to="/showreel" style={{ textDecoration: "none" }}>
           <button
             className="btn cinzel-600 m-2"
