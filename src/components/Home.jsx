@@ -35,6 +35,7 @@ const Home = () => {
           <b>Mukta Barve</b>
         </h1>
         <p className="cinzel">Actress | Dreamer | Storyteller</p>
+        <br /><br />
         <h4
           style={{
             color: "#00BFFF",
