@@ -115,6 +115,7 @@ const Navbar = () => {
             <i class="fa-brands fa-facebook"></i>
             </NavLink>
           </div>
+          
         </div>
       </div>
     </nav>
