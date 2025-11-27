@@ -12,7 +12,7 @@ const Stats = () => {
                 <img src={movie} alt="movie" className='img-fluid mb-4' style={{width:"100px"}}/>
                 <div>
                     <h1 className='space-mono-bold'>
-                        <CountUp end={42} duration={4}/> +
+                        <CountUp end={43} duration={4}/> +
                     </h1>
                     <h3 className='space-mono-bold'>Films</h3>
                 </div>

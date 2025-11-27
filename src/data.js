@@ -38,6 +38,7 @@ import apth from './assets/apth.jpg'
 import abacc from './assets/abacc.webp'
 import ngg from './assets/ngg.jpg';
 import ksns from './assets/ksns.jpg'
+import asambhav from './assets/asambhav2.0.png'
 export const films = [
   {
     "year" : 1987,
@@ -272,6 +273,12 @@ export const films = [
     "film": "Nach Ga Ghuma",
     "src" : ngg,
     "role": "Rani",
+  },
+  {
+    "year": 2025,
+    "film": "Asambhav",
+    "src": asambhav,
+    "role": "Role1 : Manasi  Role2: Urmila"
   }
 ];
 

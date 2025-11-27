@@ -8,12 +8,6 @@ const UpcomingProjects = () => {
           <div className="row m-5">
             <h1 className='cinzel text-center text-light mb-5 mt-4' style={{textDecoration:"underline"}} >Upcoming Projects</h1>
             <div className='d-flex gap-5 flex-wrap'>
-              <div className='border border-3 borderColor p-4 text-center' style={{width:"300px"}}>
-                <img src={asambhav} alt="asambhav" className='img-fluid mb-3' />
-                <h1 className='space-mono-regular asambhav'>Asambhav</h1>
-                <p className='space-mono-regular asambhav'>Release Date : 21 Nov 2025</p>
-                <button className='btn space-mono-regular' style={{ backgroundColor: "#F7DAC0" }}>Show Details</button>
-            </div>
                <div className='border border-3 borderColor p-4 text-center' style={{width:"300px"}}>
                 <img src={mpm4} alt="mpm4" className='img-fluid mb-3' />
                 <h1 className='space-mono-regular asambhav'>Mumbai Pune Mumbai 4</h1>
