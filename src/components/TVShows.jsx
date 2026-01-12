@@ -1,8 +1,9 @@
 import React from 'react'
 import { useState } from 'react';
 import {tvShows} from '../data.js';
+import { reversedTvShows } from '../data.js';
 const TVShows = () => {
-  const [liked, setLiked] = useState(Array(tvShows.length).fill(false));
+  const [liked, setLiked] = useState(Array(reversedTvShows.length).fill(false));
       const toggleLike = (index) => {
           const newLiked = [...liked];
           newLiked[index] = !newLiked[index];
@@ -22,7 +23,7 @@ const TVShows = () => {
           </h1>
         </div>
         <div className="d-flex justify-content-center gap-5 flex-wrap mb-4">
-          {tvShows.map((tvShow, i) => {
+          {reversedTvShows.map((tvShow, i) => {
             return (
               <>
                 <div key={i} className="shadow-lg p-3 bg-light d-flex justify-content-between rounded gap-4">

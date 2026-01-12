@@ -282,6 +282,9 @@ export const films = [
   }
 ];
 
+export const reversedFilms = [...films].reverse();
+
+
 import gb from './assets/ghadlayBighadlay.jpg'
 import pp from './assets/pimpalpan.jpg'
 import bandhan from './assets/bandhan.jpg'
@@ -389,6 +392,9 @@ export const tvShows = [
     "role" : "Mukta Inamdar"
   }
 ]
+
+export const reversedTvShows = [...tvShows].reverse();
+
 import gth from './assets/gth.jpg'
 import avv from './assets/avv.jpg'
 import dehbhan from './assets/dehbhan.jpg'
@@ -499,17 +505,20 @@ export const plays = [
   },
   {
     "year": 2022,
+    "play": "Charchaughi",
+    "src" : cc,
+    "role": "Vidya",
+  },
+  {
+    "year": 2022,
     "play": "Priya Bhai, Ek Kavita Havi Aahe",
     "src" : pbekha,
     "role": "Sunitabaai",
   },
-  {
-    "year": 2022,
-    "play": "Charchaughi",
-    "src" : cc,
-    "role": "Vidya",
-  }
 ]
+
+export const reversedPlays = [...plays].reverse();
+
 
 import vsvyp from './assets/vsvyp.jpg'
 import spa from './assets/smitaPatil.jpg';

@@ -1,8 +1,9 @@
 import React from 'react'
 import { plays } from '../data';
 import { useState } from 'react';
+import { reversedPlays } from '../data';
 const Theatre = () => {
-  const [liked, setLiked] = useState(Array(plays.length).fill(false));
+  const [liked, setLiked] = useState(Array(reversedPlays.length).fill(false));
         const toggleLike = (index) => {
             const newLiked = [...liked];
             newLiked[index] = !newLiked[index];
@@ -22,7 +23,7 @@ const Theatre = () => {
             </h1>
           </div>
           <div className="d-flex justify-content-center gap-5 flex-wrap mb-4">
-            {plays.map((play, i) => {
+            {reversedPlays.map((play, i) => {
               return (
                 <>
                   <div key={i} className="shadow-lg p-3 bg-light d-flex justify-content-between rounded gap-4">

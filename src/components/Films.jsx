@@ -1,9 +1,10 @@
 import React from "react";
 import { films } from "../data";
 import { useState } from "react";
+import { reversedFilms } from "../data";
 import "../index.css";
 const Films = () => {
-    const [liked, setLiked] = useState(Array(films.length).fill(false));
+    const [liked, setLiked] = useState(Array(reversedFilms.length).fill(false));
     const toggleLike = (index) => {
         const newLiked = [...liked];
         newLiked[index] = !newLiked[index];
@@ -23,7 +24,7 @@ const Films = () => {
         </h1>
       </div>
       <div className="d-flex justify-content-center gap-5 flex-wrap mb-4">
-        {films.map((film, i) => {
+        {reversedFilms.map((film, i) => {
           return (
             <>
               <div key={i} className="shadow-lg p-3 bg-light d-flex justify-content-between rounded gap-4">
