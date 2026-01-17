@@ -10,10 +10,9 @@ const Home = () => {
       className="hero-section d-flex align-items-center justify-content-center text-center text-light"
       style={{
         backgroundImage: `url(${mukta2})`,
-        backgroundSize: "100%",
-        objectFit: "cover",
+        backgroundSize: "cover",
         backgroundPosition: "center top",
-        height: "100vh",
+        minHeight: "100vh",
         backgroundRepeat: "no-repeat",
         position: "relative",
       }}

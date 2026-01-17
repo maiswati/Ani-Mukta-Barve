@@ -119,3 +119,10 @@
     gap: 40px;
   }
 }
+@media (max-width: 768px) {
+  .hero-section {
+    background-position: center top;
+    padding-top: 80px;
+  }
+}
+
