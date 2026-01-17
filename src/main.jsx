@@ -1,4 +1,5 @@
 import { createRoot } from 'react-dom/client'
+import { HashRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Home from './components/Home.jsx';
@@ -15,13 +16,13 @@ import About from './components/About.jsx';
 import ShortFilms from './components/ShortFilms.jsx';
 import Family from './components/Family.jsx';
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <HashRouter>
   <Navbar/>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/upcoming-projects' element={<UpcomingProjects/>}/>
       <Route path='/showreel' element={<ShowReel/>}/>
-      <Route path='films' element={<Films/>}/>
+      <Route path='/films' element={<Films/>}/>
       <Route path='/tvshows' element={<TVShows/>}/>
       <Route path='/theatre' element={<Theatre/>}/>
       <Route path='/awards' element={<Awards/>}/>
@@ -30,5 +31,5 @@ createRoot(document.getElementById('root')).render(
       <Route path='/family' element={<Family/>}/>
       <Route path='/shortFilms' element={<ShortFilms/>}/>
     </Routes>
-  </BrowserRouter>,
+  </HashRouter>,
 )
