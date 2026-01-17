@@ -279,7 +279,7 @@ export const films = [
     "year": 2025,
     "film": "Asambhav",
     "src": asam,
-    "role": "Role1 : Manasi  Role2: Urmila"
+    "role": "Role1 : Manasi      Role2: Urmila"
   }
 ];
 
@@ -577,22 +577,22 @@ import sir from './assets/alekarSir.jpg'
 export const family = [
   {
     "member" : "Vijaya Barve",
-    "relation" : "Mother",
+    "relation" : "Aau",
     "src" : muktuMother,
   },
   {
     "member" : "Vasant Barve",
-    "relation" : "Father",
+    "relation" : "Baba",
     "src" : father,
   },
   {
     "member": "Aaji",
-    "relation": "GrandMother",
+    "relation": "Aaji",
     "src": aaji
   },
   {
     "member" : "Debu Barve",
-    "relation" : "Brother",
+    "relation" : "Dada",
     "src" : brother
   },
   {
@@ -602,17 +602,17 @@ export const family = [
   },
   {
     "member": "Rasika Joshi",
-    "relation": "Best Friend",
+    "relation": "Best Friend (Raski)",
     "src": rasika
   },
   {
     "member": "Satish Alekar",
-    "relation": "Sir",
+    "relation": "Alekar Sir",
     "src": sir
   },
   {
     "member" : "Zendu",
-    "relation" : "Pet",
+    "relation" : "Pet (My Life)",
     "src" : zendu,
   },
   {
