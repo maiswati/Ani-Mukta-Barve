@@ -1,5 +1,6 @@
 import React from "react";
 import mukta from "../assets/Mukta 2.jpg";
+import mukta2 from '../assets/about-section-image.png'
 import "../index.css";
 import { NavLink } from "react-router-dom";
 
@@ -8,10 +9,10 @@ const Home = () => {
     <div
       className="hero-section d-flex align-items-center justify-content-center text-center text-light"
       style={{
-        backgroundImage: `url(${mukta})`,
-        backgroundSize: "cover",
+        backgroundImage: `url(${mukta2})`,
+        backgroundSize: "100%",
         objectFit: "cover",
-        backgroundPosition: "top center",
+        backgroundPosition: "center top",
         height: "100vh",
         backgroundRepeat: "no-repeat",
         position: "relative",
@@ -25,7 +26,7 @@ const Home = () => {
           left: 0,
           width: "100%",
           height: "100%",
-          backgroundColor: "rgba(0,0,0,0.45)",
+          background: "linear-gradient(to right, rgba(0,0,0,0.85) 25%, rgba(0,0,0,0.1) 65%, rgba(0,0,0,0.2) 100%)",
           zIndex: 1,
         }}
       ></div>
