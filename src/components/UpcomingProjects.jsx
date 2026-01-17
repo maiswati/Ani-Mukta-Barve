@@ -6,9 +6,9 @@ import maya2 from '../assets/mayamuk.jpeg'
 
 const UpcomingProjects = () => {
   return (
-    <div className='container-fluid' style={{backgroundColor:"#1C1B1B", minHeight: "100vh"}}>
-          <div className="row m-5">
-            <h1 className='cinzel text-center text-light mb-5 mt-4' style={{textDecoration:"underline"}} >Upcoming Projects</h1>
+    <div className='container-fluid py5' style={{backgroundColor:"#1C1B1B", minHeight: "100vh"}}>
+          <div className="row px-5 py-4">
+            <h1 className='cinzel text-center text-light mb-5' style={{textDecoration:"underline"}} >Upcoming Projects</h1>
             <div className='d-flex gap-5 flex-wrap'>
               <div className='border border-3 borderColor p-4 text-center' style={{width:"300px"}}>
                 <img src={maya2} alt="mpm4" className='img-fluid mb-3' />

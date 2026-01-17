@@ -15,8 +15,10 @@
 }
 .showreel-section {
   background: linear-gradient(135deg, #3a0d0d, #5c1e1e);
+  min-height: 100vh;
+  margin: 0;
   color: #fff;
-  padding: 60px 20px;
+  padding: 0;
 }
 .video-wrapper {
   border-radius: 15px;
@@ -49,4 +51,71 @@
   width: 200px;   
   height: 300px;  
   object-fit: contain;     
+}
+
+.stats-section {
+  background-color: #fbf7ef; /* warm off-white */
+  padding: 100px 0;
+}
+
+.stats-title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 70px;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 40px 20px;
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-8px);
+}
+
+.stat-icon {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.stat-number {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.stat-card::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #000;
+  margin: 20px auto 0;
+  opacity: 0.3;
+}
+.stat-card:hover .stat-number {
+  letter-spacing: 2px;
+  transition: letter-spacing 0.3s ease;
+}
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
 }

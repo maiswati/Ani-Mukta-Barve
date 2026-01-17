@@ -3,41 +3,52 @@ import movie from '../assets/movie.png';
 import tv from '../assets/tv.png'
 import theatre from '../assets/theatre.png';
 import CountUp from 'react-countup';
+import clap from '../assets/movieclap.png'
+import tvshow from '../assets/tvshow.png'
+import theatre2 from '../assets/theatremukta.png'
 const Stats = () => {
   return (
-    <div className='container-fluid' style={{backgroundColor:"#FEFBF8", minHeight: "100vh"}}>
-          <div className="row m-5">
-            <h1 className='cinzel text-center mb-5 mt-4' style={{textDecoration:"underline"}} >Stats</h1>
-            <div className="col-lg-4 text-center mb-4">
-                <img src={movie} alt="movie" className='img-fluid mb-4' style={{width:"100px"}}/>
-                <div>
-                    <h1 className='space-mono-bold'>
-                        <CountUp end={43} duration={4}/> +
-                    </h1>
-                    <h3 className='space-mono-bold'>Films</h3>
-                </div>
-            </div>
-            <div className="col-lg-4 text-center mb-4 ">
-                <img src={tv} alt="movie" className='img-fluid mb-4' style={{width:"75px"}}/>
-                <div>
-                    <h1 className='space-mono-bold'>
-                        <CountUp end={20} duration={4}/> +
-                    </h1>
-                    <h3 className='space-mono-bold'>TV Shows</h3>
-                </div>
-            </div>
-            <div className="col-lg-4 text-center mt-4">
-                <img src={theatre} alt="movie" className='img-fluid mb-4' style={{width:"110px"}}/>
-                <div>
-                    <h1 className='space-mono-bold'>
-                        <CountUp end={17} duration={4}/> +
-                    </h1>
-                    <h3 className='space-mono-bold'>Plays</h3>
-                </div>
-            </div>
-          </div>
+    <section className="stats-section">
+  <div className="container">
+    <h2 className="stats-title cinzel">Stats</h2>
+
+    <div className="stats-grid">
+      <div className="stat-card">
+        <div className="stat-icon">
+            <img src={clap} height="150" width="200" style={{borderRadius:10}}/>
+        </div>
+        <div className="stat-number">
+            <CountUp end={43} duration={4}/> +
+        </div>
+        <div className="stat-label">Films</div>
+      </div>
+
+      <div className="stat-card">
+        <div className="stat-icon">
+            <img src={tvshow} width="235" style={{borderRadius:10}}/>
+        </div>
+        <div className="stat-number">
+            <CountUp end={20} duration={4}/> +
+        </div>
+        <div className="stat-label">TV Shows</div>
+      </div>
+
+      <div className="stat-card">
+        <div className="stat-icon">
+            <img src={theatre2} width="235" style={{borderRadius:10}}/>
+        </div>
+        <div className="stat-number">
+            <CountUp end={17} duration={4}/> +
+        </div>
+        <div className="stat-label">Plays</div>
+      </div>
     </div>
+  </div>
+</section>
+
   )
 }
+
+
 
 export default Stats

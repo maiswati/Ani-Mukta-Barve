@@ -38,7 +38,8 @@ import apth from './assets/apth.jpg'
 import abacc from './assets/abacc.webp'
 import ngg from './assets/ngg.jpg';
 import ksns from './assets/ksns.jpg'
-import asambhav from './assets/asambhav2.0.png'
+import asam from './assets/asamb2.png'
+import band from './assets/band.jpeg'
 export const films = [
   {
     "year" : 1987,
@@ -235,7 +236,7 @@ export const films = [
   {
     "year": 2019,
     "film": "Bandishala",
-    "src" : bs,
+    "src" : band,
     "role": "Madhavi Sawant",
   },
   {
@@ -277,7 +278,7 @@ export const films = [
   {
     "year": 2025,
     "film": "Asambhav",
-    "src": asambhav,
+    "src": asam,
     "role": "Role1 : Manasi  Role2: Urmila"
   }
 ];
@@ -564,22 +565,30 @@ export const awards = [
     "src" : filmfare,
   },
 ];
-import mother from './assets/mukta mother.png'
+import muktuMother from './assets/muktaMother.jpg'
 import father from './assets/mukta father.png'
 import brother from './assets/mukta brother.png'
 import vahini from './assets/mukta vahini.png'
 import zendu from './assets/mukta zendu.png'
 import prekshak from './assets/her audience.png'
+import aaji from './assets/muktabarveAaji.avif'
+import rasika from './assets/rasikaJoshi.jpg'
+import sir from './assets/alekarSir.jpg'
 export const family = [
   {
     "member" : "Vijaya Barve",
     "relation" : "Mother",
-    "src" : mother,
+    "src" : muktuMother,
   },
   {
     "member" : "Vasant Barve",
     "relation" : "Father",
     "src" : father,
+  },
+  {
+    "member": "Aaji",
+    "relation": "GrandMother",
+    "src": aaji
   },
   {
     "member" : "Debu Barve",
@@ -590,6 +599,16 @@ export const family = [
     "member" : "Nivedita Barve",
     "relation" : "Vahini",
     "src" : vahini,
+  },
+  {
+    "member": "Rasika Joshi",
+    "relation": "Best Friend",
+    "src": rasika
+  },
+  {
+    "member": "Satish Alekar",
+    "relation": "Sir",
+    "src": sir
   },
   {
     "member" : "Zendu",
