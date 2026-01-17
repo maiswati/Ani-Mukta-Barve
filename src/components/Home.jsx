@@ -31,15 +31,15 @@ const Home = () => {
       ></div>
 
       <div style={{ zIndex: 2 }}>
-        <h1 className="cinzel">
+        <h1 className="cinzel" style={{fontWeight:700, color:"beige", fontSize:40}}>
           <b>Mukta Barve</b>
         </h1>
-        <p className="cinzel">Actress | Dreamer | Storyteller</p>
+        <p className="cinzel" style={{color:"blanchedalmond", fontSize:20}}>Actress | Dreamer | Storyteller</p>
         <br /><br />
         <h4
           style={{
-            color: "#00BFFF",
-            textShadow: "0 0 3px #87CEFA, 0 0 16px #1E90FF",
+            color: "#A0522D",
+            textShadow: "0 0 3px #F5DEB3, 0 0 12px #8B4513",
             fontWeight: "bold",
           }}
         >
