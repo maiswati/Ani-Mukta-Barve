@@ -1,39 +1,47 @@
-import React from 'react'
-import asambhav from '../assets/asambhav.png'
-import ravsaheb from '../assets/raavsaheb.webp'
-import mpm4 from '../assets/mpmm4.jpeg'
-import maya2 from '../assets/mayamuk.jpeg'
+import React from "react";
+import asambhav from "../assets/asambhav.png";
+import ravsaheb from "../assets/raavsaheb.webp";
+import mpm4 from "../assets/mpmm4.jpeg";
+import maya2 from "../assets/mayamuk.jpeg";
 
 const UpcomingProjects = () => {
   return (
-    <div className='container-fluid py5' style={{backgroundColor:"#1C1B1B", minHeight: "100vh"}}>
-          <div className="row px-5 py-4">
-            <h1 className='cinzel text-center text-light mb-5' style={{textDecoration:"underline"}} >Upcoming Projects</h1>
-            <div className='d-flex gap-5 flex-wrap'>
-              <div className='border border-3 borderColor p-4 text-center' style={{width:"300px"}}>
-                <img src={maya2} alt="mpm4" className='img-fluid mb-3' />
-                <h1 className='space-mono-regular asambhav'>Maya</h1>
-                <p className='space-mono-regular asambhav'>Release Date : 27th Feb 2026</p>
-                <button className='btn space-mono-regular' style={{ backgroundColor: "#F7DAC0" }}>Show Details</button>
-            </div>
-               <div className='border border-3 borderColor p-4 text-center' style={{width:"300px"}}>
-                <img src={mpm4} alt="mpm4" className='img-fluid mb-3' />
-                <h1 className='space-mono-regular asambhav'>Mumbai Pune Mumbai 4</h1>
-                <p className='space-mono-regular asambhav'>Release Date : 2027</p>
-                <button className='btn space-mono-regular' style={{ backgroundColor: "#F7DAC0" }}>Show Details</button>
-            </div>
-            <div className='border border-3 borderColor p-4 text-center' style={{width:"300px"}}>
-                <img src={ravsaheb} alt="ravsaheb" className='img-fluid mb-3' />
-                <h1 className='space-mono-regular asambhav'>Raavsaaheb</h1>
-                <p className='space-mono-regular asambhav'>Release Date : Unknown</p>
-                <button className='btn space-mono-regular' style={{ backgroundColor: "#F7DAC0" }}>Show Details</button>
-            </div>
-           
-            </div>
-            
+    <div
+      className="container-fluid py5"
+      style={{ backgroundColor: "#1C1B1B", minHeight: "100vh" }}
+    >
+      <div className="row px-5 py-4 mt-5">
+        <h1
+          className="cinzel text-center text-light mb-5"
+          style={{ textDecoration: "underline" }}
+        >
+          Upcoming Projects
+        </h1>
+        <div className="projects-grid">
+          <div className="project-card">
+            <img src={maya2} alt="Maya" />
+            <h3>Maya</h3>
+            <p>Release Date · 27 Feb 2026</p>
+            <button>Show Details</button>
+          </div>
+
+          <div className="project-card">
+            <img src={mpm4} alt="MPM 4" />
+            <h3>Mumbai Pune Mumbai 4</h3>
+            <p>Release Date · 2027</p>
+            <button>Show Details</button>
+          </div>
+
+          <div className="project-card">
+            <img src={ravsaheb} alt="Raavsaaheb" />
+            <h3>Raavsaaheb</h3>
+            <p>Release Date · TBA</p>
+            <button>Show Details</button>
           </div>
         </div>
-  )
-}
+      </div>
+    </div>
+  );
+};
 
-export default UpcomingProjects
+export default UpcomingProjects;

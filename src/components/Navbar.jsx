@@ -4,17 +4,14 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav
-      class="navbar navbar-expand-lg"
-      style={{
-        backgroundColor: "rgba(245, 245, 220, 0.7)",
-        backdropFilter: "blur(8px)",
-      }}
+      class="navbar navbar-expand-lg scrolled"
     >
       <div class="container-fluid">
         <NavLink to="/" style={{ textDecoration: "none" }}>
-          <a class="navbar-brand cinzel-600" style={{ color: "brown" }}>
-            Mukta Barve
-          </a>
+          <a className="navbar-brand navbar-title cinzel-600">
+  Mukta Barve
+</a>
+
         </NavLink>
         <button
           class="navbar-toggler"

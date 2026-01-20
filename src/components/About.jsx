@@ -4,7 +4,7 @@ import sign from '../assets/sign.png'
 const About = () => {
   return (
     <div className='container-fluid ' style={{backgroundColor:"#FEFBF8", minHeight: "100vh"}}>
-      <div className="row px-4 py-4">
+      <div className="row px-4 py-4 mt-5">
         <h1 className='cinzel text-center mb-5 mt-4' style={{textDecoration:"underline"}} >About</h1>
         <div className="col-lg-5 mb-5">
             <img className='img-fluid rounded' src={aboutImage} alt="Mukta Tai" />
