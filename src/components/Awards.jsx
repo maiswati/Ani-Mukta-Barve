@@ -13,7 +13,7 @@ const Awards = () => {
             className="container-fluid m-auto"
             style={{ backgroundColor: "#FEFBF8", minHeight: "100vh" }}
           >
-            <div className="row px-4 py-4">
+            <div className="row px-4 py-4 mt-5">
               <h1
                 className="cinzel text-center mb-5 mt-4"
                 style={{ textDecoration: "underline" }}
