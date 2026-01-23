@@ -41,7 +41,7 @@ const Theatre = () => {
     <img
       src={zee5}
       alt={play.availableOn}
-      className="ott-logo"
+      className="ott-logo-th"
     />
     <span className="ott-text">
       Watch on {play.availableOn}
