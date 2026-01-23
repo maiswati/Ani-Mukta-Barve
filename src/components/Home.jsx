@@ -85,7 +85,7 @@ useEffect(() => {
         <h1 className="cinzel hero-animate hero-title" style={{fontWeight:700, color:"beige", fontSize:40, textShadow:"0 3px 6px rgba(0, 0, 0, 0.6), 0 12px 28px rgba(0,0,0,0.45)"}}>
           Mukta Barve
         </h1>
-        <p className="cinzel hero-animate hero-subtitle" style={{color:"blanchedalmond", fontSize:20, opacity:0.95,  textShadow: "0 2px 6px rgba(0,0,0,0.45)"}}>Actress | Dreamer | Storyteller</p>
+        <p className="cinzel hero-animate hero-subtitle" style={{color:"blanchedalmond", fontSize:20, opacity:0.95,  textShadow: "0 2px 6px rgba(0,0,0,0.45)"}}>Marathi Actress | Theatre Artist | Performer</p>
         <br /><br />
         <div className="hero-animate hero-buttons">
         <NavLink to="/showreel" style={{ textDecoration: "none" }}>

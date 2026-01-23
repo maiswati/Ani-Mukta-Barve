@@ -28,7 +28,7 @@ const TVShows = () => {
               <>
                 <div key={i} className="shadow-lg p-3 bg-light d-flex justify-content-between rounded gap-4">
                   <div className="mt-5">
-                      <img className="img-fluid rounded" width='250px' src={tvShow.src} alt={tvShow.show} />
+                      <img className="img-fluid rounded" width='250px' src={tvShow.src} alt="Mukta Barve theatre performance" loading='lazy'/>
                   </div>
                   <div>
                       <h3 className="space-mono-bold">{tvShow.show}</h3>

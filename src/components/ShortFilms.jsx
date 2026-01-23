@@ -27,7 +27,7 @@ const ShortFilms = () => {
               <>
                 <div key={i} className="shadow-lg p-3 bg-light d-flex justify-content-between rounded gap-4">
                   <div className="mt-5">
-                      <img className="img-fluid rounded" width='250px' src={shortFilm.src} alt={shortFilm.show} />
+                      <img className="img-fluid rounded" width='250px' src={shortFilm.src} alt="Mukta Barve theatre performance" loading='lazy' />
                   </div>
                   <div>
                       <h3 className="space-mono-bold">{shortFilm.show}</h3>

@@ -15,7 +15,7 @@ const Stats = () => {
     <div className="stats-grid">
       <div className="stat-card">
         <div className="stat-icon">
-            <img src={clap} height="150" width="200" style={{borderRadius:10}}/>
+            <img src={clap} height="150" width="200" alt="Mukta Barve theatre performance" style={{borderRadius:10}} loading='lazy'/>
         </div>
         <div className="stat-number">
             <CountUp end={43} duration={4}/> +
@@ -25,7 +25,7 @@ const Stats = () => {
 
       <div className="stat-card">
         <div className="stat-icon">
-            <img src={tvshow} width="235" style={{borderRadius:10}}/>
+            <img src={tvshow} width="235" style={{borderRadius:10}} alt='Mukta Barve theatre performance' loading='lazy'/>
         </div>
         <div className="stat-number">
             <CountUp end={20} duration={4}/> +
@@ -35,7 +35,7 @@ const Stats = () => {
 
       <div className="stat-card">
         <div className="stat-icon">
-            <img src={theatre2} width="235" style={{borderRadius:10}}/>
+            <img src={theatre2} width="235" style={{borderRadius:10}} alt='Mukta Barve theatre performance' loading='lazy'/>
         </div>
         <div className="stat-number">
             <CountUp end={17} duration={4}/> +

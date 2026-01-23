@@ -20,7 +20,7 @@ const Family = () => {
                     <>
                       <div key={i} className="shadow-lg p-3 bg-light d-flex flex-column justify-content-between rounded gap-4">
                         <div className="mt-5">
-                            <img className="img-fluid rounded" width='250px' height='250px' src={member.src} alt={member.member} />
+                            <img className="img-fluid rounded" width='250px' height='250px' src={member.src} alt="Mukta Barve theatre performance" loading='lazy' />
                         </div>
                         <div>
                             <h3 className="space-mono-bold">{member.member}</h3>
