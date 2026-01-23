@@ -528,6 +528,7 @@ import pul from './assets/PulotsavAward.jpg'
 import filmfare from './assets/filmfare.jpg'
 import yuva from './assets/yuvaPuraskar.png'
 import spmukta from './assets/awardbysp.png'
+import aryans from './assets/aryansMukta.jpeg'
 export const awards = [
   {
     "year" : 2025,
@@ -538,6 +539,11 @@ export const awards = [
     "year" : 2025,
     "award" : "V. Shantaram Special Contribution Award",
     "src" : vsvyp,
+  },
+  {
+    "year": 2023,
+    "award": "Aryans Sanman 2023 (Natak Vibhag)",
+    "src": aryans
   },
   {
     "year" : 2020,
@@ -569,8 +575,8 @@ import muktuMother from './assets/muktaMother.jpg'
 import father from './assets/mukta father.png'
 import brother from './assets/mukta brother.png'
 import vahini from './assets/mukta vahini.png'
-import zendu from './assets/mukta zendu.png'
-import prekshak from './assets/her audience.png'
+import zendu from './assets/zendu.jpeg'
+import prekshak from './assets/chahatae.jpeg'
 import aaji from './assets/muktabarveAaji.avif'
 import rasika from './assets/rasikaJoshi.jpg'
 import sir from './assets/alekarSir.jpg'
