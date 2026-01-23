@@ -35,31 +35,54 @@ const Films = () => {
         {reversedFilms.map((film, i) => {
           return (
             <>
-              <div key={i} className="shadow-lg p-3 bg-light d-flex justify-content-between rounded gap-4">
-                <div className="mt-5">
-                    <img className="img-fluid rounded" width='250px' src={film.src} alt="Mukta Barve theatre performance" loading="lazy" />
-                </div>
-                <div>
-                    <h3 className="space-mono-bold">{film.film}</h3>
-                    <p className="space-mono-regular">Role - {film.role}</p>
-                    <p className="text-muted">Year : {film.year}</p>
-                    {
-                      film.availableOn && (
-                        <div className="ott-container mt-2">
-    <img
-      src={ottlogos[film.availableOn]}
-      alt={film.availableOn}
-      className="ott-logo"
-    />
-    <span className="ott-text">
-      Watch on {film.availableOn}
-    </span>
+              <div
+  key={i}
+  className="shadow-lg p-3 bg-light rounded"
+  style={{ width: "100%" }}
+>
+  {/* TOP ROW */}
+  <div className="d-flex justify-content-between gap-4">
+    {/* Image */}
+    <div className="mt-2">
+      <img
+        className="img-fluid rounded"
+        width="250px"
+        src={film.src}
+        alt={film.film}
+        loading="lazy"
+      />
+    </div>
+
+    {/* Description */}
+    <div className="flex-grow-1">
+      <h3 className="space-mono-bold">{film.film}</h3>
+      <p className="space-mono-regular">Role - {film.role}</p>
+      <p className="text-muted">Year : {film.year}</p>
+    </div>
+
+    {/* Heart */}
+    <i
+      onClick={() => toggleLike(i)}
+      className={`fa-${liked[i] ? "solid" : "regular"} fa-heart`}
+      style={{ color: "#c72323", cursor: "pointer", fontSize: "20px" }}
+    ></i>
   </div>
-                      )
-                    }
-                </div>
-                <i onClick={() => toggleLike(i)} class={`fa-${liked[i] ? "solid" : "regular"} fa-heart`} style={{color: "#c72323"}}></i>
-              </div>
+
+  {/* OTT ROW (BELOW EVERYTHING) */}
+  {film.availableOn && ottlogos[film.availableOn] && (
+    <div className="ott-container mt-3 ms-2">
+      <img
+        src={ottlogos[film.availableOn]}
+        alt={film.availableOn}
+        className="ott-logo"
+      />
+      <span className="ott-text">
+        Watch on {film.availableOn}
+      </span>
+    </div>
+  )}
+</div>
+
             </>
           );
         })}

@@ -362,11 +362,6 @@
   }
 }
 
-.ott-text {
-  font-size: 0.9rem;
-  color: #5a189a;
-}
-
 .ott-container {
   display: flex;
   align-items: center;
@@ -374,6 +369,13 @@
 }
 
 .ott-logo {
-  width: 35px;
+  width: 45px;
   height: auto;
 }
+
+.ott-text {
+  font-size: 1rem;
+  color:  #1a73e8; 
+  font-weight: 500;
+}
+

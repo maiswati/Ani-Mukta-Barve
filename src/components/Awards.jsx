@@ -26,7 +26,7 @@ const Awards = () => {
                 return (
                   <>
                     <div key={i} className="shadow-lg p-3 bg-light d-flex flex-column justify-content-between rounded gap-4">
-                      <div className="mt-5">
+                      <div className="mt-5 d-flex justify-content-center">
                           <img className="img-fluid rounded" width='250px' src={award.src} alt="Mukta Barve theatre performance" loading='lazy' />
                       </div>
                       <div>
