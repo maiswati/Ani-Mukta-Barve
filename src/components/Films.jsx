@@ -2,6 +2,9 @@ import React from "react";
 import { films } from "../data";
 import { useState } from "react";
 import { reversedFilms } from "../data";
+import zee5 from '../assets/logozee5.jpeg'
+import primevideo from '../assets/primevideo.webp'
+import yt from '../assets/yt.webp'
 import "../index.css";
 const Films = () => {
     const [liked, setLiked] = useState(Array(reversedFilms.length).fill(false));
@@ -9,6 +12,11 @@ const Films = () => {
         const newLiked = [...liked];
         newLiked[index] = !newLiked[index];
         setLiked(newLiked)
+    }
+    const ottlogos = {
+      "Amazon Prime": primevideo,
+      "ZEE 5": zee5,
+      "YouTube": yt
     }
   return (
     <div
@@ -35,6 +43,20 @@ const Films = () => {
                     <h3 className="space-mono-bold">{film.film}</h3>
                     <p className="space-mono-regular">Role - {film.role}</p>
                     <p className="text-muted">Year : {film.year}</p>
+                    {
+                      film.availableOn && (
+                        <div className="ott-container mt-2">
+    <img
+      src={ottlogos[film.availableOn]}
+      alt={film.availableOn}
+      className="ott-logo"
+    />
+    <span className="ott-text">
+      Watch on {film.availableOn}
+    </span>
+  </div>
+                      )
+                    }
                 </div>
                 <i onClick={() => toggleLike(i)} class={`fa-${liked[i] ? "solid" : "regular"} fa-heart`} style={{color: "#c72323"}}></i>
               </div>

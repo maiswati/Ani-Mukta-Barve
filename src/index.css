@@ -361,3 +361,19 @@
     letter-spacing: 0.04em;
   }
 }
+
+.ott-text {
+  font-size: 0.9rem;
+  color: #5a189a;
+}
+
+.ott-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ott-logo {
+  width: 35px;
+  height: auto;
+}

@@ -10,6 +10,7 @@ import ShowReel from './components/ShowReel.jsx';
 import Films from './components/Films.jsx';
 import TVShows from './components/TVShows.jsx';
 import Theatre from './components/Theatre.jsx';
+import AudioBooks from './components/AudioBooks.jsx'
 import Awards from './components/Awards.jsx';
 import Stats from './components/Stats.jsx';
 import About from './components/About.jsx';
@@ -29,6 +30,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/stats' element={<Stats/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/family' element={<Family/>}/>
+      <Route path='/audiobooks' element={<AudioBooks/>}/>
       <Route path='/shortFilms' element={<ShortFilms/>}/>
     </Routes>
   </HashRouter>,

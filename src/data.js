@@ -46,240 +46,281 @@ export const films = [
     "film" : "Khatyal Sasu Nathal Sun",
     "src" : ksns,
     "role" : "Dancer : Mukta Barve",
+    "availableOn": "YouTube"
   },
   {
     "year": 2004,
     "film": "Chakwa",
     "src" : chakwa,
     "role": "Chhaya",
+    "availableOn": "YouTube"
   },
   {
     "year": 2005,
     "film": "Thang",
     "src" : thang,
     "role": "Unnamed",
+    "availableOn": null
   },
   {
     "year": 2005,
     "film": "Shevri",
     "src" : shevri,
     "role": "Unnamed",
+    "availableOn": "YouTube"
   },
   {
     "year": 2006,
     "film": "Blind Game",
     "src" : blindGame,
     "role": "Detective",
+    "availableOn": "YouTube"
   },
   {
     "year": 2007,
     "film": "Maati Maay",
     "src" : maatiMaay,
     "role": "Yashoda",
+    "availableOn": null
   },
   {
     "year": 2007,
     "film": "Sawaar Re",
     "src" : sawarRe,
     "role": "Mukta",
+    "availableOn": "YouTube"
   },
   {
     "year": 2007,
     "film": "De Dhakka",
     "src" : deDhakka,
     "role": "Unnamed",
+    "availableOn": null
   },
   {
     "year": 2008,
     "film": "Saas Bahu Aur Sensex",
     "src" : saasBahu,
     "role": "Parimal G. Bhosle",
+    "availableOn": null
   },
   {
     "year": 2008,
     "film": "Ek Daav Dhobi Pachhad",
     "src" : ekDaav,
     "role": "Sulakshana",
+    "availableOn": null
   },
   {
     "year": 2009,
     "film": "Sumbaran",
     "src" : sumbran,
     "role": "Kalyani (Kalli)",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2009,
     "film": "Jogwa",
     "src" : jogwa,
     "role": "Suli",
+    "availableOn": "YouTube"
   },
   {
     "year": 2009,
     "film": "Topi Ghala Re",
     "src" : topi,
     "role": "Mukta",
+    "availableOn": null
   },
   {
     "year": 2009,
     "film": "Thanks Maa",
     "src" : thanksMaa,
     "role": "Lakshmi – the prostitute",
+    "availableOn": null
   },
   {
     "year": 2010,
     "film": "Mumbai-Pune-Mumbai",
     "src" : mpm,
     "role": "Mumbai",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2010,
     "film": "Aika Dajiba",
     "src" : aikaDajiba,
     "role": "Sharu",
+    "availableOn": "YouTube"
   },
   {
     "year": 2011,
     "film": "Aaghat",
     "src" : aaghat,
     "role": "Dr. Smita Deshmukh",
+    "availableOn": "YouTube"
   },
   {
     "year": 2012,
     "film": "Badam Rani Gulam Chor",
     "src" : brgc,
     "role": "Pencil",
+    "availableOn": null
   },
   {
     "year": 2012,
     "film": "Gola Berij",
     "src" : golaberij,
     "role": "Nandini Chaubal",
+    "availableOn": null
   },
   {
     "year": 2013,
     "film": "Lagna Pahave Karun",
     "src" : lagna,
     "role": "Aditi Tilak",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2013,
     "film": "Mangalshtak Once More",
     "src" : mom,
     "role": "Aarti Pathak",
+    "availableOn": null
   },
   {
     "year": 2015,
     "film": "Double Seat",
     "src" : ds,
     "role": "Manjiri Naik",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2015,
     "film": "Highway",
     "src" : highway,
     "role": "Sex worker",
+    "availableOn": null
+
   },
   {
     "year": 2015,
     "film": "Mumbai-Pune-Mumbai 2",
     "src" : mpm2,
     "role": "Gauri Ashok Deshpande",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2015,
     "film": "Ganvesh",
     "src" : ganvesh,
     "role": "Inspector Meera Patil",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2016,
     "film": "YZ",
     "src" : yz,
     "role": "Sayali",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2016,
     "film": "Hrudyantar",
     "src" : hrudyantar,
     "role": "Samaira Joshi",
+    "availableOn": null
   },
   {
     "year": 2017,
     "film": "22 June",
     "src" : june,
     "role": "Malti",
+    "availableOn": null
   },
   {
     "year": 2017,
     "film": "Aamhi Doghi",
     "src" : ad,
     "role": "Amala Sardesai",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2017,
     "film": "Mumbai Pune Mumbai 3",
     "src" : mpm3,
     "role": "Gauri Pradhan",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2017,
     "film": "Ranangan",
     "src" : ranagan,
     "role": "Kavita Sabnis",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2019,
     "film": "Wedding Cha Shinema",
     "src" : wcs,
     "role": "Urvi",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2019,
     "film": "Bandishala",
     "src" : band,
     "role": "Madhavi Sawant",
+    "availableOn": "ZEE 5"
   },
   {
     "year": 2019,
     "film": "Smile Please",
     "src" : sp,
     "role": "Nandini",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2020,
     "film": "Ekda Kaay Zala",
     "src" : ekz,
     "role": "Dr. Saniya",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2022,
     "film": "Y",
     "src" : y,
     "role": "Dr. Aarti Deshmukh",
+    "availableOn": null
   },
   {
     "year": 2022,
     "film": "Aapdi Thaapdi",
     "src" : apth,
     "role": "Parvati Patil",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2023,
     "film": "Alibaba Ani Chalishitale Chor",
     "src" : abacc,
     "role": "Sumitra",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2024,
     "film": "Nach Ga Ghuma",
     "src" : ngg,
     "role": "Rani",
+    "availableOn": "Amazon Prime"
   },
   {
     "year": 2025,
     "film": "Asambhav",
     "src": asam,
-    "role": "Role1 : Manasi      Role2: Urmila"
+    "role": "Role1 : Manasi      Role2: Urmila",
+    "availableOn": "Amazon Prime"
   }
 ];
 
@@ -419,12 +460,14 @@ export const plays = [
     "play": "Ghar Tighancha Hava",
     "src" : gth,
     "role": null,
+        "availableOn": null
   },
   {
     "year": 2001,
     "play": "Aamhala Vegle Vhayache",
     "src": avv,
     "role": null,
+        "availableOn": null
   },
   {
     "year": 2005,
@@ -437,84 +480,98 @@ export const plays = [
     "play": "Final Draft",
     "src" : fd,
     "role": "Student",
+        "availableOn": null
   },
   {
     "year": 2006,
     "play": "Hum To Tere Aashiq Hain",
     "src" : httah,
     "role": "Ruksana Saahil",
+        "availableOn": null
   },
   {
     "year": 2008,
     "play": "Kabaddi Kabaddi",
     "src":kk,
     "role": "Purva",
+        "availableOn": null
   },
   {
     "year": 2013,
     "play": "Chhapa Kata",
     "src": ck,
     "role": "Maitreyi Bhagwat",
+        "availableOn": null
   },
   {
     "year": 2014,
     "play": "Rang Nava",
     "src" : rangNava,
     "role": "—",
+        "availableOn": null
   },
   {
     "year": 2015,
     "play": "Lovebirds",
     "src" : lb,
     "role": "Devika",
+        "availableOn": null
   },
   {
     "year": 2015,
     "play": "Indira",
     "src": indira,
     "role": "Producer",
+        "availableOn": null
   },
   {
     "year": 2016,
     "play": "Codemantra",
     "src" : cm,
     "role": "Ahilya Deshmukh",
+        "availableOn": null
   },
   {
     "year": 2016,
     "play": "Deepsthamb",
     "src" : deep,
     "role": "Producer",
+        "availableOn": null
   },
   {
     "year": 2017,
     "play": "Sakharam Binder",
     "src" : sb,
     "role": "Champa",
+        "availableOn": null
   },
   {
     "year": 2017,
     "play": "Dhai Akshar Prem Ke",
     "src" : dapk,
     "role": "Producer",
+        "availableOn": null
   },
   {
     "year": 2018,
     "play": "Challenge",
     "src" : ch,
     "role": "Producer",
+        "availableOn": null
   },
   {
     "year": 2022,
     "play": "Charchaughi",
     "src" : cc,
     "role": "Vidya",
+    "availableOn": "ZEE 5"
   },
   {
     "year": 2022,
     "play": "Priya Bhai, Ek Kavita Havi Aahe",
     "src" : pbekha,
     "role": "Sunitabaai",
+        "availableOn": null
   },
 ]
 
@@ -669,4 +726,23 @@ export const shortFilms = [
     "src" : devi,
     "role": "Arzu",
   },
+]
+
+import addict from './assets/addict.jpeg'
+import viruspune1 from './assets/viruspune1.jpeg'
+import viruspune2 from './assets/viruspune2.jpeg'
+
+export const audioBooks = [
+  {
+    "audioBook": "Virus Pune 2",
+    "src" : viruspune2,
+  },
+  {
+    "audioBook": "Virus Pune 1",
+    "src": viruspune1
+  },
+  {
+    "audioBook": "Addict",
+    "src": addict
+  }
 ]

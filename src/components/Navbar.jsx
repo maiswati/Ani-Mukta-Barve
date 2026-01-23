@@ -87,6 +87,13 @@ const Navbar = () => {
                     </a>
                   </li>
                 </NavLink>
+                <NavLink to="/audiobooks" style={{ textDecoration: "none" }}>
+                  <li>
+                    <a class="dropdown-item cinzel-600" href="#">
+                      Audio Books
+                    </a>
+                  </li>
+                </NavLink>
               </ul>
             </li>
             <NavLink to="/awards" style={{ textDecoration: "none" }}>
