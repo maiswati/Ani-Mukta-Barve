@@ -17,7 +17,7 @@ import About from './components/About.jsx';
 import ShortFilms from './components/ShortFilms.jsx';
 import Family from './components/Family.jsx';
 createRoot(document.getElementById('root')).render(
-  <HashRouter>
+  <BrowserRouter>
   <Navbar/>
     <Routes>
       <Route path='/' element={<Home/>}/>
@@ -33,5 +33,5 @@ createRoot(document.getElementById('root')).render(
       <Route path='/audiobooks' element={<AudioBooks/>}/>
       <Route path='/shortFilms' element={<ShortFilms/>}/>
     </Routes>
-  </HashRouter>,
+  </BrowserRouter>
 )
