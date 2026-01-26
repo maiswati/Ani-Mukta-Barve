@@ -24,7 +24,7 @@ const Family = () => {
                         </div>
                         <div>
                             <h3 className="space-mono-bold">{member.member}</h3>
-                            <p className="text-muted">Relation : {member.relation}</p>
+                            <p className="text-muted">{member.relation}</p>
                         </div>
                         <i  class={`fa-solid fa-heart`} style={{color: "#c72323"}}></i>
                       </div>
