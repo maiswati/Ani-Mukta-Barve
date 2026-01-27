@@ -689,6 +689,7 @@ import votekarghuma from './assets/votekargaghuma.png'
 import chandSanse from './assets/chaandSanse.jpg'
 import varsh17 from './assets/17vevarsh.png'
 import mansudhatuza from './assets/mansuddhatuz.png'
+import tp from './assets/turningPoint.jpeg'
 export const shortFilms = [
   {
     "year": 2025,
@@ -713,6 +714,12 @@ export const shortFilms = [
     "film": "Vote kar ga Ghuma",
     "src" : votekarghuma,
     "role": "Rani",
+  },
+  {
+    "year": 2023,
+    "film": "Turning Point",
+    "src": tp,
+    "role": "Neha"
   },
   {
     "year": 2023,
