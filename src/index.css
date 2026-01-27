@@ -40,6 +40,7 @@
 }
 .stats-section {
   background: linear-gradient(135deg, #fffaf0, #fff5e1);
+  min-height: 100vh;
 }
 .borderColor {
   border-color: #FCF8DC;

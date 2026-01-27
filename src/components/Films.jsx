@@ -31,61 +31,60 @@ const Films = () => {
           Films
         </h1>
       </div>
-      <div className="d-flex justify-content-center gap-5 flex-wrap mb-4">
+<div className="row justify-content-center g-4 mb-5">
         {reversedFilms.map((film, i) => {
-          return (
-            <>
-              <div
-  key={i}
-  className="shadow-lg p-3 bg-light rounded"
-  style={{ width: "100%" }}
->
-  {/* TOP ROW */}
-  <div className="d-flex justify-content-between gap-4">
-    {/* Image */}
-    <div className="mt-2">
-      <img
-        className="img-fluid rounded"
-        width="250px"
-        src={film.src}
-        alt={film.film}
-        loading="lazy"
-      />
+  return (
+    <div key={i} className="col-12 col-md-10 col-lg-8">
+      
+      <div className="shadow-lg p-3 bg-light rounded">
+        {/* TOP ROW */}
+        <div className="d-flex justify-content-between gap-4">
+          
+          {/* Image */}
+          <div className="mt-2">
+            <img
+              className="img-fluid rounded"
+              width="250px"
+              src={film.src}
+              alt={film.film}
+              loading="lazy"
+            />
+          </div>
+
+          {/* Description */}
+          <div className="flex-grow-1">
+            <h3 className="space-mono-bold">{film.film}</h3>
+            <p className="space-mono-regular">Role - {film.role}</p>
+            <p className="text-muted">Year : {film.year}</p>
+          </div>
+
+          {/* Heart */}
+          <i
+            onClick={() => toggleLike(i)}
+            className={`fa-${liked[i] ? "solid" : "regular"} fa-heart`}
+            style={{ color: "#c72323", cursor: "pointer", fontSize: "20px" }}
+          ></i>
+        </div>
+
+        {/* OTT ROW */}
+        {film.availableOn && ottlogos[film.availableOn] && (
+          <div className="ott-container mt-3 ms-2">
+            <img
+              src={ottlogos[film.availableOn]}
+              alt={film.availableOn}
+              className="ott-logo"
+            />
+            <span className="ott-text">
+              Watch on {film.availableOn}
+            </span>
+          </div>
+        )}
+      </div>
+
     </div>
+  );
+})}
 
-    {/* Description */}
-    <div className="flex-grow-1">
-      <h3 className="space-mono-bold">{film.film}</h3>
-      <p className="space-mono-regular">Role - {film.role}</p>
-      <p className="text-muted">Year : {film.year}</p>
-    </div>
-
-    {/* Heart */}
-    <i
-      onClick={() => toggleLike(i)}
-      className={`fa-${liked[i] ? "solid" : "regular"} fa-heart`}
-      style={{ color: "#c72323", cursor: "pointer", fontSize: "20px" }}
-    ></i>
-  </div>
-
-  {/* OTT ROW (BELOW EVERYTHING) */}
-  {film.availableOn && ottlogos[film.availableOn] && (
-    <div className="ott-container mt-3 ms-2">
-      <img
-        src={ottlogos[film.availableOn]}
-        alt={film.availableOn}
-        className="ott-logo"
-      />
-      <span className="ott-text">
-        Watch on {film.availableOn}
-      </span>
-    </div>
-  )}
-</div>
-
-            </>
-          );
-        })}
       </div>
     </div>
   );
