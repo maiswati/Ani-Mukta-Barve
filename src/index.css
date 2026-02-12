@@ -385,3 +385,9 @@
   font-weight: 500;
 }
 
+.family-card {
+  width: 100%;
+  height: 280px;      /* fixed height */
+  object-fit: cover;  /* crop image to fit nicely */
+  border-radius: 12px;
+}

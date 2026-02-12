@@ -454,6 +454,7 @@ import dapk from './assets/dapk.jpg'
 import ch from './assets/challenge.jpg'
 import pbekha from './assets/pbekha.jpg'
 import cc from './assets/charchaughi.jpg'
+import ck2 from './assets/chapakaata.jpeg'
 export const plays = [
   {
     "year": 1996,
@@ -500,6 +501,13 @@ export const plays = [
     "year": 2013,
     "play": "Chhapa Kata",
     "src": ck,
+    "role": "Maitreyi Bhagwat",
+        "availableOn": null
+  },
+  {
+    "year": 2013,
+    "play": "Chhapa Kata",
+    "src": ck2,
     "role": "Maitreyi Bhagwat",
         "availableOn": null
   },
