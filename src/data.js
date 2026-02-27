@@ -40,6 +40,7 @@ import ngg from './assets/ngg.jpg';
 import ksns from './assets/ksns.jpg'
 import asam from './assets/asamb2.png'
 import band from './assets/band.jpeg'
+import maya2 from './assets/mayamuk.jpeg'
 export const films = [
   {
     "year" : 1987,
@@ -321,6 +322,13 @@ export const films = [
     "src": asam,
     "role": "Role1 : Manasi      Role2: Urmila",
     "availableOn": "Amazon Prime"
+  },
+  {
+    "year": 2026,
+    "film": "Maya",
+    "src": maya2,
+    "role": "Maya",
+    "availableOn": null
   }
 ];
 

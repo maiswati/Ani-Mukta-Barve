@@ -19,13 +19,6 @@ const UpcomingProjects = () => {
         </h1>
         <div className="projects-grid">
           <div className="project-card">
-            <img src={maya2} alt="Mukta Barve theatre performance" loading="lazy"/>
-            <h3>Maya</h3>
-            <p>Release Date · 27 Feb 2026</p>
-            <button>Show Details</button>
-          </div>
-
-          <div className="project-card">
             <img src={mpm4} alt="Mukta Barve theatre performance" loading="lazy" />
             <h3>Mumbai Pune Mumbai 4</h3>
             <p>Release Date · 2027</p>
